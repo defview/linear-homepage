@@ -1,0 +1,41 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# In this part of the series, we focus on various elements of the homepage design. We start by creating the main page structure, including the main navigation with a delightful animation specifically designed for mobile devices. Additionally, we develop the footer section.
+
+#Next, we dedicate our attention to the main hero section of the homepage, implementing impressive micro animations solely using CSS animations. We proceed to build the client logo section and the block featuring the four product USPs (Unique Selling Points). Furthermore, we construct an animated keyboard shortcut component and a command menu component.
+
+#Lastly, we concentrate on developing three feature sections for the homepage, incorporating captivating gradients and colors that enhance the overall visual appeal. Throughout these processes, we leverage CSS animations to bring life and interactivity to the different components.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
